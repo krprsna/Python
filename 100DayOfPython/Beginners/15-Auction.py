@@ -1,4 +1,4 @@
-# Method-1 to find highest bidder
+# Method-1 to find max bidder
 def find_max_bidder(max_bidder):
     winner = ""
     highest_bid = 0
@@ -26,7 +26,7 @@ while not auction:
         find_max_bidder(data)
         auction = True
 
-# # Method-2 to find highest bidder
+# # Method-2 to find max bidder
 max_bid = max(data.values())
 max_bidder = max(data, key=data.get)
 print(f"The Max bidder is {max_bidder} and the bidding is {max_bid}.")
