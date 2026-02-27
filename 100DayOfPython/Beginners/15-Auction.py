@@ -2,7 +2,6 @@
 def find_max_bidder(max_bidder):
     winner = ""
     highest_bid = 0
-    max(max_bidder)
     for bidder in max_bidder:
         bid_amount = max_bidder[bidder]
         if bid_amount > highest_bid:
