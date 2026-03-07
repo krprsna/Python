@@ -1,8 +1,6 @@
 # Method 1
 from random import randint
-number = randint(1, 100)
-random_num = random.choice(number)
-print(random_num)
+random_num = randint(1, 100)
 
 def hard():
     life = 5
